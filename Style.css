@@ -2,4 +2,53 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+body {
+    background-color: black;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.button {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: #393939;
+    border-radius: 5px;
+}
+
+header {
+    padding: 10px;
+    text-align: right;
+    line-height: 37px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.username {
+    padding: 1px 5px;
+    color: white;
+    bottom: 14px;
+    left: 10;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.user {
+    padding: 10px;
+}
+
+
+
